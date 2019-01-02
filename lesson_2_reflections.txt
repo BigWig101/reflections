@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it? - when you initialise a git repo, it creates a new .git file which contains no initial commit. We need to write in the first commit ourself. It works that way because we might have files which we dont want to keep track of. Thus by running 'git status' we can see no of commits, unracked files etc.
+
