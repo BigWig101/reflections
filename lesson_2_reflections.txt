@@ -2,3 +2,4 @@ What happens when you initialize a repository? Why do you need to do it? - when 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers? - The working directory helps us to include all the logical files into one commit in Working directory by meanss of an intermediate section designated as staging area. Such an area helps us to collect all the files which are to be included in a single commit.
 
+How can you use the staging area to make sure you have one commit per logical change? - The staging area could be used to include all of our current changes and pack it all into one commit per logic once done.
