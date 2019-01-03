@@ -5,3 +5,5 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change? - The staging area could be used to include all of our current changes and pack it all into one commit per logic once done.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? - Branches are helpful when we would want to create an experimental function without breaking the base repo. Once the exp is working fine we could merge it into the master branch.
+
+How do the diagrams help you visualize the branch structure? - The diagrams makes it simpler to understand the concept of reachability and branches in an overall manner. The is useful while we are in a detached head state and want to see which commits would get affected and what commits each branch are pointing towards. Also tells us the parent commit in each branch.
