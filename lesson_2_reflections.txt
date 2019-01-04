@@ -9,3 +9,6 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure? - The diagrams makes it simpler to understand the concept of reachability and branches in an overall manner. The is useful while we are in a detached head state and want to see which commits would get affected and what commits each branch are pointing towards. Also tells us the parent commit in each branch.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do? - Merging the two branches results in the two branches merging to create one single commit. Now this commit will have two parent commitssince they both formed the changes in the current branch of commit ie the master branch and that is how we show them diagramaically.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? - Pros: Saves time
+cons : It can break the program in case of conflicts not being manually dealt with.
